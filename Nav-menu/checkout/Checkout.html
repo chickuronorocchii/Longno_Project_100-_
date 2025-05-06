@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Gaddie - Checkout</title>
+    <link rel="stylesheet" href="../../Homepage/Css/aboutme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" style="position: absolute; top: 10px; left: 10px;">
+                <a href="#">
+                    <img src="../../Homepage/Images/logo_food.jpeg" style="height: 50px; width: 50px; border-radius: 50%;" alt="Food Logo" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="../../Homepage/Homepage.html">Home</a></li>
+                <li><a href="../../Nav-menu/shop/Shop.html">Shop</a></li>
+                <li><a href="../../Nav-menu/about us/About_us.html">About Us</a></li>
+                <li><a href="../../Nav-menu/Reference/Reference.html">Reference</a></li>
+            </ul>
+            <div class="icons">
+                <span class="search-icon" id="search-icon">🔍</span>
+                <span class="cart-icon" id="cart-icon">🛒 <span id="cart-count">(0)</span></span>
+                <button class="logout" onclick="logout()">Logout</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Review Your Order</h2>
+
+        <div id="checkout-summary">
+            <ul id="checkout-items"></ul>
+            <div id="checkout-total">Total: ₱0.00</div>
+        </div>
+
+        <button id="confirm-checkout">Confirm Order</button>
+        <button id="cancel-checkout">Cancel</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Foodie Gaddie</p>
+    </footer>
+
+    <script src="../../Homepage/Script/checkout.js"></script>
+</body>
+</html>

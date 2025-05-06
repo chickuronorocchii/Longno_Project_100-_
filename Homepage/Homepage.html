@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Gaddie</title>
+    <link rel="stylesheet" href="CSS/Design.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" style="position: absolute; top: 10px; left: 10px;">
+                <a href="#">
+                    <img src="Images/logo_food.jpeg" style="height: 50px; width: 50px; border-radius: 50%;" alt="Food Logo" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="Homepage.html" id="home-link">Home</a></li>
+                <li><a href="../Nav-menu/Shop/Shop.html" id="shop-link">Shop</a></li>
+                <li><a href="../Nav-menu/about us/About_us.html" id="about-link">About Us</a></li>
+                <li><a href="../Nav-menu/Reference/Reference.html" id="Reference-link">Reference</a></li>
+            </ul>
+            
+            <div class="icons">
+                <span class="search-icon" id="search-icon">🔍</span>
+                <span class="cart-icon">🛒</span>
+                <button class="logout" onclick="logout()" style="padding: 5px 10px; border: none; background-color: #ff914d; color: white; border-radius: 5px; cursor: pointer;">Logout</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h1>Discover delicious recipes and order your favorite meals with ease.</h1>
+        </section>
+        <section class="categories">
+            <div class="category" id="meat">
+                <a href="meat.html">
+                    <img src="Images\Meat.jpg" alt="Meat">
+                    <h2>Meat</h2>
+                </a>
+            </div>
+            <div class="category" id="veggies">
+                <a href="veggies.html">
+                    <img src="Images\Veggies.jpg" alt="Veggies">
+                    <h2>Veggies</h2>
+                </a>
+            </div>
+            <div class="category" id="seafood">
+                <a href="seafood.html">
+                    <img src="Images\Seafood.jpg" alt="Sea Food">
+                    <h2>Sea Food</h2>
+                </a>
+            </div>
+            <div class="category" id="desserts">
+                <a href="desserts.html">
+                    <img src="Images\Dessert.jpg" alt="Desserts">
+                    <h2>Desserts</h2>
+                </a>
+            </div>
+            <div class="category" id="beverage">
+                <a href="beverage.html">
+                    <img src="Images\Beverage.jpg" alt="Beverage">
+                    <h2>Beverage</h2>
+                </a>
+            </div>
+        </section>
+        <section class="promo">
+            <p>We have many promos for you every day, don't miss out. Checkout now!</p>
+            <button>SHOP NOW</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Foodie Goodie</p>
+    </footer>
+    <div id="search-container" class="search-container">
+        <input type="text" id="search-input" placeholder="Search for products..." />
+        <button id="search-button">Search</button>
+    </div>
+   
+   <script src="Script/script.js"></script>
+
+
+    
+</body>
+</html>
