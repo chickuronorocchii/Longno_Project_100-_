@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function logout() {
-    window.location.href = "../login/Login.html";
+    window.location.href = "login/Login.html";
 }
 
 /* LOGIN */
