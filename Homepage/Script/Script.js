@@ -46,7 +46,7 @@ function logout() {
             let username = document.getElementById("username").value;
             let password = document.getElementById("password").value;
             if (username === "1" && password === "1") {
-                window.location.href = "../homepage.html"; // Adjust the path to point to the correct location
+                window.location.href = "/Homepage/homepage.html"; // Adjust the path to point to the correct location
             } else {
                 alert("Invalid username or password");
             }
